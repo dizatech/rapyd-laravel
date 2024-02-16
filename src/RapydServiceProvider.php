@@ -35,8 +35,6 @@ class RapydServiceProvider extends ServiceProvider
         } else {
             $this->loadRoutesFrom(__DIR__.'/routes.php');
         }
-       
-        include __DIR__ . '/macro.php';
     }
 
     /**
