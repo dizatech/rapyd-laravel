@@ -44,7 +44,6 @@ class RapydServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register('Collective\Html\HtmlServiceProvider');
         $this->app->register('Zofe\Burp\BurpServiceProvider');
         
         Rapyd::setContainer($this->app);
