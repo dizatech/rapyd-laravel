@@ -4,7 +4,6 @@ use Illuminate\Support\Facades\Config;
 use Zofe\Rapyd\Widget;
 use Zofe\Rapyd\Helpers\HTML;
 use Illuminate\Support\Facades\Schema;
-use Illuminate\Support\Facades\Input;
 
 abstract class Field extends Widget
 {

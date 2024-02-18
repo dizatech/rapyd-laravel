@@ -23,7 +23,6 @@ use Zofe\Rapyd\Widget;
 use Collective\Html\FormFacade as Form;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Request;
 use Zofe\Rapyd\Rapyd;
